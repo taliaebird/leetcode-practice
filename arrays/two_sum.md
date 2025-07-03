@@ -7,7 +7,6 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 **Approach:** 
 ✔️ Use a hashmap to store each number and its index.  
 → For each number, check if the complement exists in the hashmap.   
-
 ⭐ If found, return both indices. 
 
 **Time Complexity:** O(n)
