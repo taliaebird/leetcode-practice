@@ -9,7 +9,7 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 → For each number, check if the complement exists in the hashmap.   
 ⭐ If found, return both indices. 
 
-**Time Complexity:** O(n)
+**Time Complexity:** O(n)  
 **Space Complexity:** O(n)
 
 **Why It's Optimal:**  
@@ -17,5 +17,5 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 • Fast lookup with the hashmap. 🎀  
 
 **Example:**  
-Input: `nums = [2, 7, 11, 15]`, `target = 9`  
+Input: `nums = [2, 7, 11, 15]`, `target = 9`    
 Output: `[0, 1]` _(2 + 7 = 9)_
